@@ -1,0 +1,173 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header Styles */
+header {
+  background-color: #be2b2b;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Button Styles */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form Styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(126, 64, 64, 0.1);
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #b83232;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.budget-table {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin: 0 5rem 0 5rem;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 2px solid #3d9f8c;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav button {
+  cursor: pointer;
+  padding: 14px 28px;
+  font-size: 20px;
+}
+
+/* General styling for the home container */
+.home-container {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Styling for the welcome message */
+.welcome-message {
+  font-size: 2rem;
+  color: #fa0f0f;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+/* Styling for the buttons */
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.home-button {
+  margin: 0 20px;
+  padding: 16px 32px;
+  background-color: #8bca27;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}

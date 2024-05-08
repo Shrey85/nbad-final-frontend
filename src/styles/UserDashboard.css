@@ -1,0 +1,140 @@
+/* Dashboard.css */
+
+.personalbudget {
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translateX(0%);
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 1000;
+}
+
+.logout-button {
+  position: fixed;
+  top: 10px;
+  left: 10px; /* Changed to left */
+  background-color: #2b9dbe; /* Changed color */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard {
+  margin-top: 0%;
+  background-color: #f0f0f0; /* Changed color */
+  padding: 20px; /* Increased padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjusted shadow color */
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 10;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
+  max-width: -40px;
+}
+
+.dashboard ul li {
+  margin: 5px;
+}
+
+.dashboard button {
+  background-color: #6c2ab3; /* Changed color */
+  color: #fffefe;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dashboard button:hover {
+  background-color: #e29617; /* Changed color */
+}
+
+/* Centered component styles */
+.centered-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Add budget component styles */
+.add-budget-component {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Budget list component styles */
+.budget-list-component {
+  display: flex;
+  justify-content: flex-start; /* Changed alignment to flex-start */
+  align-items: center;
+  height: 50vh;
+}
+
+/* Budget chart component styles */
+.budget-chart-component {
+  display: flex;
+  justify-content: flex-end; /* Changed alignment to flex-end */
+  align-items: center;
+  height: 60vh;
+}
+
+/* Add budget capacity component styles */
+.add-budget-capacity-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dashboard-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.dashboard-modal p {
+  margin-bottom: 20px;
+}
+
+.dashboard-modal button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #2bbe77; /* Changed color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-modal button:hover {
+  background-color: #7ce7e2; /* Changed color */
+}

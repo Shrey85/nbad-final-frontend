@@ -1,0 +1,79 @@
+/* General styling for table rows */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px; /* Increased padding */
+  color: #333; /* Changed text color to dark gray */
+  border-bottom: 2px solid #ccc; /* Increased thickness and changed color of bottom border */
+}
+
+/* Remove the bottom border for the last row */
+.table-row:last-child {
+  border-bottom: none;
+}
+
+/* Styling for the header row */
+.table-row.header {
+  color: #fff; /* Changed header text color to white */
+  padding-top: 24px; /* Increased top padding for header row */
+}
+
+/* Styling for header cells */
+.table-row.header .table-cell {
+  background-color: #74acdc; /* Changed background color to blue */
+}
+
+/* Styling for odd and even rows */
+.table-row:nth-child(odd),
+.table-row:nth-child(even) {
+  background-color: #f5f5f5; /* Light gray background for all rows */
+}
+
+/* Specific styling for 'Remaining Balance' cells */
+.table-cell.remaining-balance {
+  background: linear-gradient(to right, #4caf50, #8bc34a); /* Gradient from green to light green */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+}
+
+/* General styling for table cells */
+.table-cell {
+  flex: 1;
+  padding: 12px; /* Increased padding */
+  border-right: 1px solid #ccc; /* Light gray border to divide columns */
+}
+
+/* Remove the right border for the last cell in each row */
+.table-row .table-cell:last-child {
+  border-right: none;
+}
+
+/* Styling for the table border */
+.budget-table {
+  border: 3px solid #b1c4d6; /* Increased thickness and changed color of table border */
+  border-collapse: collapse; /* Ensures borders collapse into a single border */
+  margin-top: 50px; /* Reduced top margin */
+}
+
+/* Adjustments for select dropdown to match the header */
+.select-dropdown {
+  border-color: #7db5e6; /* Matched border color to header */
+}
+
+/* Styling for buttons */
+.button {
+  background-color: #4caf50; /* Green background for buttons */
+  color: #fff; /* White text color */
+  padding: 12px 24px; /* Increased padding */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  margin-top: 20px; /* Adjusted margin-top */
+  width: 100px; /* Specified width */
+  text-align: center; /* Centered text */
+}
+
+.button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
